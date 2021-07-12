@@ -1,17 +1,28 @@
+body 
+{
+    background-color: whitesmoke;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
 img
 {
     border-radius: 2%;
 }
+
 .page
 {
     padding-left: 150px;
     padding-right: 150px;
-    background-color: whitesmoke;
 }
 
 nav a 
 {
-    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
 }
 
 nav
@@ -41,7 +52,53 @@ nav
 #competences
 {
     padding-top: 50px;
+}
+
+#competences ul
+{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#competences ul li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#competences h2
+{
+    display:flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+#contact
+{
+    padding-top: 50px;
+}
+
+#contact ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#contact ul li
+{
+    padding-right: 15px;
+}
+
+#contact h2
+{
+    display:flex;
+    justify-content: center;
+    font-size: medium;
 }
