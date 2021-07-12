@@ -1,0 +1,47 @@
+img
+{
+    border-radius: 2%;
+}
+.page
+{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: whitesmoke;
+}
+
+nav a 
+{
+    padding-left: 20px;
+}
+
+nav
+{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+#acceuil p
+{
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#acceuil
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#competences
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
